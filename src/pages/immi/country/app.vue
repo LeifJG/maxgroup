@@ -13,7 +13,7 @@
               <span class="icon-Shape"></span>
               <select v-model="item.selectedOption" class="option_selelt" :class="{'black':item.selectedOption}">
                 <option :value="false">请选择{{item.content}}</option>
-                <option v-for="option in item.inviteQuestionOptions" :value="option.optionValue" v-text="option.optionValue+'年'" :key="option.orders"></option>
+                <option v-for="option in item.inviteQuestionOptions" :value="option.optionValue" v-text="option.optionValue" :key="option.orders"></option>
               </select>
             </div>
           </div>
