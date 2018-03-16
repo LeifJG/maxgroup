@@ -2,9 +2,9 @@
 import store from 'store';
 
 var Rxports = {
-	appname:"vue multiple",
+	appname:"maxchuguo",
 	url_host:window.location.host,
-	background:'#2399EB',
+	background:'#fff',
 }
 
 export default Rxports;

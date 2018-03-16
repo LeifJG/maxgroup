@@ -10,7 +10,7 @@
         </div>
         <div class="group_warp">
           <div class="group_item" v-for="item in groupList" :style="{backgroundImage: 'url(' + item.groupPicture + ')'}" :key="item.id">
-            <a :href="'/group/country.html?eId='+item.id" class="herf">
+            <a :href="'/immi/country.html?eId='+item.id" class="herf">
               <!-- <div class="group_bg" :style="{backgroundImage: 'url(' + item.groupPicture + ')'}"> </div> -->
               <div class="group_name centerbox">
                 {{item.groupName}}
@@ -24,7 +24,7 @@
 </template>
 
 <script>
-  import logo from 'assets/img/logo.jpg'
+  import logo from 'assets/img/logo.png'
   //import modal from 'components/modal.vue'
   import Lib from "assets/js/Lib";
   export default {

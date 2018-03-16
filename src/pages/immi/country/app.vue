@@ -89,9 +89,9 @@
 </template>
 
 <script>
-  import logo from 'assets/img/logo.jpg'
+  import logo from 'assets/img/logo.png'
   //import modal from 'components/modal.vue'
-  import Lib from "assets/js/Lib";
+  import Lib from "assets/js/Lib";    
   export default {
     components: {
       //modal

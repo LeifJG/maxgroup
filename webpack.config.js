@@ -145,7 +145,7 @@ const config = {
     //host: '192.168.1.48',
     host: '192.168.1.50',
     //host: 'localhost',
-    port: 8080,
+    port: 8081,
     historyApiFallback: false,
     noInfo: true,
     disableHostCheck: true,
@@ -167,7 +167,7 @@ glob.sync('./src/pages/**/*.html').forEach(path => {
     filename: filename,
     template: path,
     inject: 'body',
-    favicon: './src/assets/img/logo.jpg',
+    favicon: './src/assets/img/logo.png',
     hash: process.env.NODE_ENV === 'production',
     chunks: ['vendors', chunk]
   }
